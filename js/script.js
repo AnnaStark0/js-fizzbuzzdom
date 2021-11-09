@@ -8,3 +8,9 @@ Prima di partire a scrivere codice poniamoci qualche domanda: Come faccio a sape
 Consigli del giorno:
 1.scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 2.proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano".*/
+
+
+//Stampare Numeri da 1 a 100
+for (let n = 1; n <= 100; n ++) {
+    console.log(n);
+};
