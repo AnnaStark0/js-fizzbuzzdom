@@ -12,10 +12,9 @@ Consigli del giorno:
 
 //Stampare Numeri da 1 a 100
 for (let n = 1; n <= 100; n ++) {
-    console.log(n);
+    if (n % 3 == 0) {
+        console.log (n + 'Fizz');
+    }
 };
 
 //Multipli di 3 = "Fizz", Multipli di 5 = "Buzz", Multipli sia di 3 che di 5 = "FizzBuzz"
-if (n % 3 == 0) {
-    console.log (n + 'Fizz')
-};
