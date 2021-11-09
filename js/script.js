@@ -12,13 +12,13 @@ Consigli del giorno:
 
 //Stampare Numeri da 1 a 100 + //Multipli di 3 = "Fizz", Multipli di 5 = "Buzz", Multipli sia di 3 che di 5 = "FizzBuzz"
 for (let n = 1; n <= 100; n ++)  {
-    if (n % 3 == 0) {
-        console.log (n + 'Fizz');
+    console.log (n); 
+    if (n % 3 == 0 && n % 5 == 0) {
+        console.log (n + 'FizzBuzz');
     } else if (n % 5 == 0) {
         console.log (n + 'Buzz');} 
-    else (n % 3 == 0 && n % 5 == 0) {
-        console.log (n + 'FizzBuzz');
+    else if (n % 3 == 0) {
+        console.log (n + 'Fizz');
     }
 };
-
 
