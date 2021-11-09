@@ -10,7 +10,7 @@ Consigli del giorno:
 2.proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano".*/
 
 
-//Stampare Numeri da 1 a 100 + //Multipli di 3 = "Fizz", Multipli di 5 = "Buzz", Multipli sia di 3 che di 5 = "FizzBuzz"
+// Stampare Numeri da 1 a 100 // + // Multipli di 3 = "Fizz", Multipli di 5 = "Buzz", Multipli sia di 3 che di 5 = "FizzBuzz" //
 for (let n = 1; n <= 100; n ++)  {
     console.log (n); 
     if (n % 3 == 0 && n % 5 == 0) {

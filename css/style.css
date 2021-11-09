@@ -1,0 +1,28 @@
+.contenitore {
+    height: 100%;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 5px; 
+}
+
+.greenfizz {
+    background-color: limegreen;
+}
+
+.yellowbuzz {
+    background-color: yellow;
+}
+
+.redfizzbuzz {
+    background-color: red;
+}
+
