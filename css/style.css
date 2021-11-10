@@ -1,28 +1,45 @@
-.contenitore {
-    height: 100%;
+
+body {
     background-color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenitore {
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
 
 .box {
     width: 100px;
     height: 100px;
+    margin: 10px; 
     background-color: dodgerblue;
-    margin: 5px; 
 }
 
-.greenfizz {
+.blue {
+    
+}
+
+.green {
     background-color: limegreen;
 }
 
-.yellowbuzz {
+.yellow {
     background-color: yellow;
 }
 
-.redfizzbuzz {
+.red {
     background-color: red;
 }
+
+
 
